@@ -3,6 +3,7 @@ file_duplicate_finder.py
 
 Author: Sarah MARTIN-ALONSO
 License: MIT License
+Date : 2024-10-15
 
 Description:
 This script searches for duplicate files in a specified directory and its subdirectories
