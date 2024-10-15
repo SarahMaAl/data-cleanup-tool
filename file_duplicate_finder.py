@@ -90,9 +90,8 @@ def find_duplicates_and_organize_files(start_directory, output_directory):
         for duplicate in duplicate_log:
             log_file.write(f"Duplicate: {duplicate[0]} -> Found in Output: {duplicate[1]}\n")
 
-
 # Example usage
 if __name__ == "__main__":
-    start_directory = r'C:\Users\sarah\Downloads\old_dq'  # Change this to your start directory
-    output_directory = r'C:\Users\sarah\Downloads\old_dq\output'  # Change this to your output directory
+    start_directory = r'C:\path\to\your\start_directory'  # Change this to your start directory
+    output_directory = r'C:\path\to\your\output_directory'  # Change this to your output directory
     find_duplicates_and_organize_files(start_directory, output_directory)
